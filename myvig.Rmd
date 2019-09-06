@@ -1,0 +1,19 @@
+---
+title: "myvig"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{myvig}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mynew)
+```
